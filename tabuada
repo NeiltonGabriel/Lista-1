@@ -1,0 +1,37 @@
+/*
+Faça um programa que leia um número inteiro e imprima a tabuada de multiplicação deste número. Suponha que o número lido da entrada é maior que zero.
+*/
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+	int num, v1, v2, v3, v4, v5, v6, v7, v8, v9;
+
+	scanf("%d", &num);
+
+    v1 = num * 1;
+    v2 = num * 2;
+    v3 = num * 3;
+    v4 = num * 4;
+    v5 = num * 5;
+    v6 = num * 6;
+    v7 = num * 7;
+    v8 = num * 8;
+    v9 = num * 9;
+
+	printf("%d X 1 = %d\n", num, v1);
+    printf("%d X 2 = %d\n", num, v2);
+    printf("%d X 3 = %d\n", num, v3);
+    printf("%d X 4 = %d\n", num, v4);
+    printf("%d X 5 = %d\n", num, v5);
+    printf("%d X 6 = %d\n", num, v6);
+    printf("%d X 7 = %d\n", num, v7);
+    printf("%d X 8 = %d\n", num, v8);
+    printf("%d X 9 = %d\n", num, v9);
+
+	return 0;
+}
