@@ -1,0 +1,23 @@
+/*
+Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário.
+A seguir, mostre o número e o salário do funcionário, com duas casas decimais.
+*/
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int trabalhador, horas;
+    double dinheiro, salario;
+
+    scanf("%d %d %lf", &trabalhador, &horas, &dinheiro);
+
+    salario = horas * dinheiro;
+
+    printf("NUMBER = %d\n", trabalhador);
+    printf("SALARY = R$ %.2lf\n", salario);
+    
+	return 0;
+}
