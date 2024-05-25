@@ -1,0 +1,26 @@
+/*
+Faça programa que recebe um tempo dado em segundos e calcula quantos dias, horas, minutos e segundos ele representa.
+*/
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main(){
+
+    int entrada, dias, horas, minutos, segundos, fminutos, fhoras;
+
+    scanf("%d", &entrada);
+
+    segundos = entrada % 60;
+    fminutos = entrada / 60;
+    minutos = fminutos % 60;
+    fhoras = fminutos / 60;
+    horas = fhoras % 24;
+    dias = fhoras / 24;
+
+    printf("%d\n%d\n%d\n%d\n", dias, horas, minutos, segundos);
+
+    return 0;
+}
