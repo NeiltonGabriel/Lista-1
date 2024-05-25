@@ -1,0 +1,21 @@
+/*
+Leia quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do produto de A e B pelo produto de C e D.
+*/
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+	int num1, num2, num3, num4, diferenca;
+
+	scanf("%d %d %d %d", &num1, &num2, &num3, &num4);
+
+	diferenca = (num1 * num2) - (num3 * num4);
+
+	printf("DIFERENCA = %d\n", diferenca);
+	
+	return 0;
+}
