@@ -1,0 +1,20 @@
+/*
+Você está organizando um bingo e deseja que cada número sorteado apareça no telão.
+Faça um programa que dado um número digitado imprima: "O numero sorteado foi: X", onde X é o número sorteado.
+*/
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+	int num;
+
+	scanf("%d", &num);
+
+	printf("O numero sorteado foi: %d\n", num);
+	
+	return 0;
+}
