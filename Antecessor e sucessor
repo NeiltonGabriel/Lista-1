@@ -1,0 +1,22 @@
+/*
+Faça um programa que leia um número inteiro e imprima o seu antecessor (inteiro anterior) e o seu sucessor (inteiro posterior).
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	int numero;
+	
+	scanf("%d", &numero);
+	
+	numero--;
+	
+	printf("%d ", numero);
+	
+	numero += 2;
+	
+	printf("%d\n", numero);
+	
+	return (0);
+}
